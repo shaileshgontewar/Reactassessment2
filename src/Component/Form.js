@@ -19,7 +19,8 @@ class form extends Component {
             <input type="number"></input>
           </div>
           <div className="submit">
-            <input type="submit" />
+            {/* <input type="submit" /> */}
+            <button>Submit</button>
           </div>
         </form>
       </div>

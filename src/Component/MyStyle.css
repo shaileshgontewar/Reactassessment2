@@ -27,14 +27,15 @@ form > div > input {
   height: 3rem;
   border-radius: 0.5rem;
 }
-form .submit input {
+form .submit button {
   background-color: coral;
   width: 10rem;
   height: 3rem;
   border: none;
   color: white;
   font-size: 2rem;
+  border-radius: 0.8rem;
 }
-form .submit input:hover {
+form .submit button:hover {
   cursor: pointer;
 }
