@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: linear-gradient(29deg, #faaca8 30%, #ab9bdf 70%) !important; */
+  background-image: linear-gradient(60deg, pink, rgb(111, 0, 255), white);
+  height: 100vh;
+  width: 100vw;
+}
+h1 {
+  font-size: 3rem;
+}
+/* form {
+  background-color: transparent;
+} */
+form > div > label {
+  color: white;
+  font-size: 2rem;
+}
+
+form > div > input {
+  margin: 1rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+form .submit input {
+  background-color: coral;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+form .submit input:hover {
+  cursor: pointer;
+}
